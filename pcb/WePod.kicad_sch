@@ -2294,10 +2294,10 @@
 		(uuid "c8c2a083-88f5-4579-a8b8-c3249d6131c2")
 	)
 	(junction
-		(at 127 63.5)
+		(at 127 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cd749001-6fa6-472b-85af-53f5e561edf2")
+		(uuid "d57fa84d-f0b0-4f4e-a5b7-01890cdd8c66")
 	)
 	(junction
 		(at 63.5 87.63)
@@ -2306,10 +2306,74 @@
 		(uuid "e77997fa-310a-46f3-8e3c-034c2f1a2ed7")
 	)
 	(junction
+		(at 127 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "edb22c13-813e-4de6-83fc-73979c3b952b")
+	)
+	(junction
 		(at 81.28 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fee851c1-8609-4e10-a63e-2e82fa2b80fa")
+	)
+	(no_connect
+		(at 104.14 111.76)
+		(uuid "08aa4be4-83d5-4960-ba0b-264c3028e880")
+	)
+	(no_connect
+		(at 134.62 109.22)
+		(uuid "14c735a5-2435-4203-9f19-57b15bd6ca9d")
+	)
+	(no_connect
+		(at 104.14 96.52)
+		(uuid "2087d407-72bd-4592-a1cd-c32441349eea")
+	)
+	(no_connect
+		(at 138.43 69.85)
+		(uuid "442680eb-45c6-45ba-ac81-8e89218ad5e8")
+	)
+	(no_connect
+		(at 97.79 69.85)
+		(uuid "47ee3c3c-9040-49b7-8ba1-95f47b576e3c")
+	)
+	(no_connect
+		(at 104.14 114.3)
+		(uuid "7571b93c-594d-4df0-9257-67a5cc643367")
+	)
+	(no_connect
+		(at 104.14 99.06)
+		(uuid "8d4c4bd8-e91d-419e-bcad-6250d8bbef57")
+	)
+	(no_connect
+		(at 104.14 91.44)
+		(uuid "95f0b2a7-a08e-4299-943c-7ac123f7231a")
+	)
+	(no_connect
+		(at 104.14 104.14)
+		(uuid "a784342b-dc0f-43e6-b3e8-79fded27c35a")
+	)
+	(no_connect
+		(at 104.14 106.68)
+		(uuid "aa70bd58-fc2a-4f59-b76f-b86f205118d3")
+	)
+	(no_connect
+		(at 97.79 72.39)
+		(uuid "dccbc1a8-5def-435f-a744-9d2b1749724d")
+	)
+	(no_connect
+		(at 134.62 106.68)
+		(uuid "fd49e58e-2117-436a-a1d6-803dbb536950")
+	)
+	(wire
+		(pts
+			(xy 129.54 46.99) (xy 129.54 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "022846f3-80e7-413c-ac7d-665fedd1b6f0")
 	)
 	(wire
 		(pts
@@ -2433,6 +2497,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 46.99) (xy 127 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f56fde7-0ab6-4b2a-9350-e998b29afb16")
+	)
+	(wire
+		(pts
 			(xy 81.28 63.5) (xy 81.28 67.31)
 		)
 		(stroke
@@ -2460,6 +2534,16 @@
 			(type default)
 		)
 		(uuid "5eef66a5-026d-403b-abe6-3274122afcc1")
+	)
+	(wire
+		(pts
+			(xy 115.57 38.1) (xy 115.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62189c11-6ea4-4ec4-b9db-baae6ff7ee47")
 	)
 	(wire
 		(pts
@@ -2493,7 +2577,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 45.72) (xy 127 63.5)
+			(xy 127 45.72) (xy 127 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2573,6 +2657,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 46.99) (xy 129.54 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7914bdfe-72bc-4648-895d-abc0ea9dd43e")
+	)
+	(wire
+		(pts
 			(xy 100.33 151.13) (xy 100.33 149.86)
 		)
 		(stroke
@@ -2620,6 +2714,16 @@
 			(type default)
 		)
 		(uuid "8ade4ae4-ead6-4bee-af97-240fb63fb1a8")
+	)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 114.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ed6f12-4726-494f-b291-5e55e644a19e")
 	)
 	(wire
 		(pts
@@ -2710,6 +2814,16 @@
 			(type default)
 		)
 		(uuid "ca4ea79a-5a4f-4bd1-955c-e7a3c6b36d30")
+	)
+	(wire
+		(pts
+			(xy 129.54 38.1) (xy 115.57 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc300fd7-088f-4205-ad32-5f8bcabd01e9")
 	)
 	(wire
 		(pts
@@ -5161,84 +5275,6 @@
 			(project "WePod"
 				(path "/ba240a54-71eb-406a-9974-2d84abd39dc7"
 					(reference "RBG1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 114.3 45.72 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ea45c34c-199d-4b00-b27b-a8a4ecefde5d")
-		(property "Reference" "#PWR04"
-			(at 114.3 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 114.3 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 114.3 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ff143fad-f083-400f-9264-6f0e904470d7")
-		)
-		(instances
-			(project "WePod"
-				(path "/ba240a54-71eb-406a-9974-2d84abd39dc7"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)

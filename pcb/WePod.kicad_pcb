@@ -82,9 +82,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "C:/Users/-.-/Desktop/Bambu Lab Stuff/Gerberstuff/")
 		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
@@ -96,7 +96,7 @@
 		(property "Reference" ""
 			(at 0 -3.75 0)
 			(layer "F.SilkS")
-			(uuid "da5e28c3-84be-4077-bf08-0aab824fae72")
+			(uuid "e26fcda0-a861-4547-9e84-819c066122cd")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,8 @@
 		(property "Value" "M3 Screw"
 			(at 0 3.75 0)
 			(layer "F.Fab")
-			(uuid "be96a67c-0db2-4d24-9a48-07c5b6cac1f3")
+			(hide yes)
+			(uuid "65c42e4c-428c-408e-9ebd-2cae64259e58")
 			(effects
 				(font
 					(size 1 1)
@@ -119,7 +120,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "df5503c5-3750-4c35-a34d-71f860e74efc")
+			(uuid "c50657cb-9f89-4cd5-96f8-0318e2fb2863")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -130,7 +131,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4949c0e2-cbb1-4fb5-a212-41540cb75d32")
+			(uuid "9b950629-b469-443d-959d-83c28d7f4439")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -556,7 +557,7 @@
 		(at 142.5 114)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
-		(property "Reference" "10uf"
+		(property "Reference" "C1"
 			(at 1.205112 0 0)
 			(layer "F.SilkS")
 			(uuid "3cc1fd81-e93d-4dfc-a092-4eeb64448215")
@@ -4279,6 +4280,7 @@
 		(property "Value" "M3 Screw"
 			(at 0 3.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "efd486e3-5289-434b-841a-14b1caca266c")
 			(effects
 				(font
@@ -4567,7 +4569,7 @@
 		(at 165.5 88 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "VCC"
+		(property "Reference" "TP1"
 			(at -2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "d2bd8587-5cbd-47ec-8411-cbb2693c5e42")
@@ -4735,7 +4737,7 @@
 		(at 142.5 119.5)
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=5mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 5mm height 7mm Electrolytic Capacitor")
-		(property "Reference" "10UF"
+		(property "Reference" "C2"
 			(at 1.205112 0 0)
 			(layer "F.SilkS")
 			(uuid "0273d0eb-bd25-4aa3-a8ba-1d7480553290")
@@ -4746,7 +4748,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "C"
 			(at 1.25 3.75 0)
 			(layer "F.Fab")
 			(uuid "93d7efff-6663-4239-bc36-c75249920b54")
@@ -6370,7 +6372,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "VCC")
+			(net "Net-(J1-Pin_1)")
 			(pinfunction "Pin_6_6")
 			(pintype "passive")
 			(uuid "9183df9c-b46d-45d8-a0f0-4441119977eb")
@@ -9347,7 +9349,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-PA8_A4_D4_SDA-Pad5)")
 			(pinfunction "PA8_A4_D4_SDA_5")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "c81e16f8-fa03-47a2-8a5d-9ea80f7f7aef")
 		)
 		(pad "6" thru_hole oval
@@ -9360,7 +9362,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-PA9_A5_D5_SCL-Pad6)")
 			(pinfunction "PA9_A5_D5_SCL_6")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "55faf8c0-0f77-4a27-9ccf-e7747b68c947")
 		)
 		(pad "7" thru_hole oval
@@ -9412,7 +9414,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U1-PA5_A9_D9_MISO-Pad10)")
 			(pinfunction "PA5_A9_D9_MISO_10")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(uuid "cbfecc96-c828-4005-9506-28793767c424")
 		)
 		(pad "11" thru_hole oval
@@ -9486,7 +9488,7 @@
 		(at 165.5 84.95 180)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "GND"
+		(property "Reference" "TP2"
 			(at -2.5 -0.05 0)
 			(layer "F.SilkS")
 			(uuid "98599512-ddca-4dd1-989e-d01e784afa21")
@@ -9668,6 +9670,7 @@
 		(property "Value" "M3 Screw"
 			(at 0 3.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "1bcacfb5-b57e-4b35-ac6d-211678751dca")
 			(effects
 				(font
@@ -9762,7 +9765,7 @@
 		(at 163 82.5)
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
-		(property "Reference" "BAT"
+		(property "Reference" "TP4"
 			(at 2.5 0 0)
 			(layer "F.SilkS")
 			(uuid "8ff9786b-2930-42da-96da-ae261ec0cc1e")
@@ -9944,6 +9947,7 @@
 		(property "Value" "M3 Screw"
 			(at 0 3.75 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "07e42929-807e-45d5-b7b9-d02990fd6c17")
 			(effects
 				(font
@@ -10438,8 +10442,8 @@
 		(at 120.92 93.5)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
-		(property "Reference" "3.3k"
-			(at 5.08 0 0)
+		(property "Reference" "´3.3k"
+			(at 5.28 0 0)
 			(layer "B.SilkS")
 			(uuid "2abc68c4-d3ee-47c7-8a54-852dfdb101cc")
 			(effects
@@ -10588,7 +10592,7 @@
 			(uuid "b3ca1914-b37b-4dc7-94f4-95ecb7818d0c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.079999 0 0)
+			(at 5.28 0 0)
 			(layer "B.Fab")
 			(uuid "3756798f-7358-486e-8f5c-30a02b1ff9f5")
 			(effects
@@ -10838,10 +10842,10 @@
 		(at 153.5 120.5 180)
 		(descr "TRS 3.5mm, horizontal, through-hole, https://www.cuidevices.com/product/resource/pdf/sj1-352xn.pdf")
 		(tags "TRS audio jack stereo horizontal")
-		(property "Reference" ""
-			(at 0 8.8 0)
+		(property "Reference" "3.5mm Jack"
+			(at 0 1.5 0)
 			(layer "B.SilkS")
-			(uuid "1525bd72-5a85-4b6c-ad02-4637f65c6272")
+			(uuid "f0cd49f7-3d2b-4aa1-8e7b-777cc62e22ba")
 			(effects
 				(font
 					(size 1 1)
@@ -10853,7 +10857,7 @@
 		(property "Value" "3.5mm Jack"
 			(at 0 1.5 0)
 			(layer "B.Fab")
-			(uuid "2f6a4f30-9f74-4a3f-ba6c-abfe67b78ac2")
+			(uuid "6cb8c0cc-45a7-44e3-9e59-fc432e9d094b")
 			(effects
 				(font
 					(size 1 1)
@@ -10867,7 +10871,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e2ab6b31-a3ac-4f8c-b1b4-0cf648fa317d")
+			(uuid "988aa63e-8430-4b06-a87c-7ddb31aee1e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10881,7 +10885,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "2c10e875-049d-47de-a6a1-ad35260d9f2b")
+			(uuid "48ed9921-2046-4ecc-8902-7758916f168a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11780,7 +11784,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-SPK1-Pad6)")
 			(pinfunction "SPK1_6")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "1474abf5-204c-4b93-b59d-631689e692d5")
 		)
@@ -11804,7 +11808,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-SPK2-Pad8)")
 			(pinfunction "SPK2_8")
-			(pintype "passive")
+			(pintype "passive+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "e87747a5-16fa-46b6-bbc2-2473aa067141")
 		)
@@ -11816,7 +11820,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-IO1-Pad9)")
 			(pinfunction "IO1_9")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "0fbda609-7e22-4ba7-9338-02024bed231b")
 		)
@@ -11840,7 +11844,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-IO2-Pad11)")
 			(pinfunction "IO2_11")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "ab7f1ef7-1b3b-4c89-aa0a-1df72298af4f")
 		)
@@ -11852,7 +11856,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-ADKEY1-Pad12)")
 			(pinfunction "ADKEY1_12")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "1a9210dd-7fac-4e0b-8e44-4d01045b563f")
 		)
@@ -11864,7 +11868,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-ADKEY2-Pad13)")
 			(pinfunction "ADKEY2_13")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "1050b241-202e-4fe9-b151-84138c5b34ee")
 		)
@@ -11876,7 +11880,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-USB+-Pad14)")
 			(pinfunction "USB+_14")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "91c56827-893e-4e8a-8c9b-f8dbddcc79f0")
 		)
@@ -11888,7 +11892,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-USB--Pad15)")
 			(pinfunction "USB-_15")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "4e033f46-3f4c-4738-a917-28e9fdc3b886")
 		)
@@ -11900,7 +11904,7 @@
 			(remove_unused_layers no)
 			(net "unconnected-(U2-BUSY-Pad16)")
 			(pinfunction "BUSY_16")
-			(pintype "input")
+			(pintype "input+no_connect")
 			(solder_mask_margin 0.102)
 			(uuid "5a928b47-280f-4b3f-b692-eb2a5ea5d4ef")
 		)
@@ -12103,6 +12107,14 @@
 		(uuid "13c7936f-99e7-4acf-bf9a-75608ca67faa")
 	)
 	(segment
+		(start 128.45 51.15)
+		(end 138.85 51.15)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(J1-Pin_1)")
+		(uuid "150bccf7-16a8-49fa-8617-a0d6f062e519")
+	)
+	(segment
 		(start 160.55 61.95)
 		(end 159.25 63.25)
 		(width 0.2)
@@ -12157,6 +12169,14 @@
 		(layer "B.Cu")
 		(net "Net-(J1-Pin_1)")
 		(uuid "5d85acac-ec96-4b10-b715-fdfcb2cb21c1")
+	)
+	(segment
+		(start 127.3 50)
+		(end 128.45 51.15)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(J1-Pin_1)")
+		(uuid "617824e9-eccf-4bda-85d4-29ca47e206cf")
 	)
 	(segment
 		(start 152.75 70.75)
@@ -12285,6 +12305,14 @@
 		(layer "B.Cu")
 		(net "Net-(J1-Pin_1)")
 		(uuid "e563b29c-b6be-4aeb-b029-b235f209e85e")
+	)
+	(segment
+		(start 138.85 51.15)
+		(end 140 50)
+		(width 0.2)
+		(layer "B.Cu")
+		(net "Net-(J1-Pin_1)")
+		(uuid "ec6d89b1-58c3-43a4-abe7-2c7fb105b8ba")
 	)
 	(segment
 		(start 152.75 85.75)
@@ -12751,28 +12779,12 @@
 		(uuid "e60d4159-9206-4452-9462-1131ac3cd84f")
 	)
 	(segment
-		(start 127.3 50)
-		(end 128.85 48.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "2c406f9b-af26-4625-8ba1-906d469eb675")
-	)
-	(segment
 		(start 162.5 109.086346)
 		(end 162.5 108)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "VCC")
 		(uuid "3132178e-5fde-4cf7-8574-0a1cefe91212")
-	)
-	(segment
-		(start 166.7 86.8)
-		(end 165.5 88)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "53187dc1-e9e1-4b45-b1d0-ebf92314b293")
 	)
 	(segment
 		(start 162.5 108)
@@ -12799,36 +12811,12 @@
 		(uuid "6b9da541-8de0-4faf-8b4b-427efbf59a67")
 	)
 	(segment
-		(start 128.85 48.45)
-		(end 158.854164 48.45)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "7aef606b-b13d-4895-809a-b881e54b6c4e")
-	)
-	(segment
-		(start 166.7 56.295837)
-		(end 166.7 86.8)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "8f2818ae-f970-481b-93f5-377aa7d8600c")
-	)
-	(segment
 		(start 139.017 105.61)
 		(end 144.557 111.15)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "VCC")
 		(uuid "a13545e4-b767-46f6-b5e9-f234d4284d1f")
-	)
-	(segment
-		(start 158.854164 48.45)
-		(end 166.7 56.295837)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "VCC")
-		(uuid "b24ad05a-27f2-404c-93c5-19ccbb53101c")
 	)
 	(segment
 		(start 144.557 111.15)
